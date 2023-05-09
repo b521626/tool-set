@@ -1,0 +1,22 @@
+GET http://localhost:8321/rabbitmq/sender/ttlQueue/msg1
+
+###
+GET http://localhost:8321/rabbitmq/sender/ttlMsg/msg2/20000
+
+###
+GET http://localhost:8321/rabbitmq/sender/ttlMsg/msg3/10000
+
+###
+GET http://localhost:8321/rabbitmq/sender/delayQueue/msg2/20000
+
+###
+GET http://localhost:8321/rabbitmq/sender/delayQueue/msg3/10000
+
+###
+GET http://localhost:8321/rabbitmq/confirm/sendMsg/确认发布高级成功
+
+###
+GET http://localhost:8321/rabbitmq/confirm/send/确认发布高级交换机失败
+
+###
+GET http://localhost:8321/rabbitmq/confirm/callback/确认发布高级routingKey失败
